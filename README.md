@@ -10241,14 +10241,16 @@ Total de paquetes simulados: 1000
  1. ¿Cuál es la probabilidad frecuentista de que la latencia de un paquete sea mayor a 50 mseg? (Consideren esto un "evento de latencia alta").
     
     R/= Le pedí a ChatGTP que me contara la cantidad de datos mayores de 50 mseg, la totalidad de estos son: 517
+    
         Esto significa que, según nuestros datos simulados, aproximadamente el 51.7% de los paquetes presentan una latencia alta
     
- 2. ¿Y cuál es la probabilidad de que esté entre 20 mseg y 40 mseg?
+ 3. ¿Y cuál es la probabilidad de que esté entre 20 mseg y 40 mseg?
     
-    R/= Le pedí a ChatGTP que me contara la cantidad de datos entre 20-40 mseg, la totalidad de estos son: 199
-        Esto nos dice que un 19.9% de los paquetes tienen una latencia en el rango entre 20 y 40 mseg.
+    R/= Le pedí a ChatGTP que me contara la cantidad de datos entre 20-40 mseg, la totalidad de estos son: 201
     
- 3. Si su aplicación requiere que el 95% de los paquetes tengan una latencia inferior a 60 mseg, ¿cumple esta red con ese requisito, según sus observaciones?
+        Esto nos dice que un 20.1% de los paquetes tienen una latencia en el rango entre 20 y 40 mseg.
+    
+ 4. Si su aplicación requiere que el 95% de los paquetes tengan una latencia inferior a 60 mseg, ¿cumple esta red con ese requisito, según sus observaciones?
 
     R/= Le pedí a ChatGTP que me contara la cantidad de datos menores de 60 mseg, la totalidad de estos son: 595
         la red no cumple con el requisito de calidad de servicio (QoS) que exige que al menos el 95% de los paquetes tengan una latencia inferior a 60 mseg, ya que solo el 59.5% lo cumple.
