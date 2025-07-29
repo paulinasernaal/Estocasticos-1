@@ -10411,4 +10411,22 @@ Total objetos no raros: 2527
     
  3. Si quisieran que los objetos raros fueran más raros, ¿cómo deberían ajustar la probabilidad teórica para que, al repetir el experimento, la frecuencia observada disminuya?
 
+    R/= Para esto podríamos ampliar el rango en los que se evaluan la cantidad de objetos raros que es posible que salga, así la probabilidad tambien se reduce, porque si solo manejamos que 1 de cada dos objetos uno es raro, hablamos de 50% de probabilidades de que pase uno u el otro, pero si tomamos que 1 de cada 10 o 20 objetos sean raros, la probabilidad se reduce a un 10% o 5% de que sea un objeto raro.
+
+## Ejercicio 4: 
+### codigo de visual: 
+
+### Base de datos: 
+
+### Preguntas: 
+1. Basado en la simulación, ¿cuál es la probabilidad frecuentista de que un monstruo suelte un objeto raro?
+    
+    R/= La probabilidad frecuentista es aproximadamente 0.4946 o 49.46%
+    
+ 2. Si un jugador derrota a 100 monstruos, ¿cuántos objetos raros esperaría obtener, en promedio, según esta probabilidad?
+    
+    R/= En promedio, se esperaría obtener 49.46 objetos raros si derrota a 100 monstruos.
+    
+ 3. Si quisieran que los objetos raros fueran más raros, ¿cómo deberían ajustar la probabilidad teórica para que, al repetir el experimento, la frecuencia observada disminuya?
+
     R/= 
