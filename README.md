@@ -1052,7 +1052,7 @@ SSDs que funcionaron: 493
     
  2. Si tiene 5000 SSD en un centro de datos, ¿cuantos esperarían que fallaran en un mes, basado en esta probabilidad?
     
-    R/= Se esperaría que aproximadamente 2535 SSDs fallen en un mes. 5000* 0.507= 2353
+    R/= Se esperaría que aproximadamente 2535 SSDs fallen en un mes. 5000* 0.507= 2535
     
  3. ¿como cambiaría su estijmación de probabilidad si tuvieran datos de 10.000 SSD en lugar de 1.000 (acá se introduce la ley de los grandes numeros)?
     
