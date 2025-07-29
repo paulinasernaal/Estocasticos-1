@@ -12451,8 +12451,8 @@ Total de golpes normales (0): 1007
     
  2. Si la descripción del personaje dice que tiene un 15% de probabilidad de golpe crítico, ¿los resultados de nuestra simulación se acercan a esa cifra? ¿Por qué sí o por qué no? (Aquí podemos discutir la variabilidad en muestras pequeñas vs. grandes).
     
-    R/= Los resultados de la simuación no se acercan ni un poco a ese 15%, 
+    R/= Los resultados de la simuación no se acercan ni un poco a ese 15%, esto indica principalmente que la simulación no está diseñada de tal forma que se semeje al valor teorico real, solamente toma valores aleatorios sin considerar ninguún tipo de condicíón.
     
  3.Si quisiéramos que un golpe crítico también tuviera un 20% de probabilidad de "aturdir" al enemigo (un evento condicional), ¿cómo podríamos empezar a pensar en esa probabilidad basándonos en la frecuencia de golpes críticos?
  
-    R/= 
+    R/= Sabemos que el ese 20% tambien se entiendo como 0.20, y si sabemos que la cantidad de golpes criticos fué de 993, entonces solo necesitamos conocer el 20% de ese total, el cual es: 199
