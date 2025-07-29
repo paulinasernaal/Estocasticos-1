@@ -10133,6 +10133,7 @@ Console.ReadKey();
 ```
 ### Datos: 
 Latencias generadas (en ms):
+
 7.90 39.63 60.21 63.67 29.29 39.63 56.79 9.34 41.08 98.38
 88.97 14.56 2.61 54.29 56.98 91.93 3.73 95.53 43.02 36.29
 38.70 74.32 50.74 86.01 34.25 30.54 56.39 15.23 5.60 63.71
@@ -10235,10 +10236,6 @@ Latencias generadas (en ms):
 9.00 95.48 17.17 3.74 30.92 51.84 23.71 62.82 15.36 50.18
 
 Total de paquetes simulados: 1000
-
-Cantidad de paquetes con latencia entre 20 ms y 50 ms: 302
-
-Probabilidad estimada: 30.20%
 
 ### Preguntas: 
  1. ¿Cuál es la probabilidad frecuentista de que la latencia de un paquete sea mayor a 50 mseg? (Consideren esto un "evento de latencia alta").
