@@ -10094,6 +10094,45 @@ Así, a estimación de la probabilidad de fallo pasó de 50.7% a 49.85%, una dif
 ## Ejercicio 2
 ### Codigo en visual: 
 ```
+int cantidadPaquetes = 1000;
+double[] latencias = new double[cantidadPaquetes];
+Random random = new Random();
+
+           
+for (int i = 0; i < cantidadPaquetes; i++)
+{
+    latencias[i] = random.NextDouble() * 99 + 1; 
+}
+Console.WriteLine("Latencias generadas (en ms):");
+for (int i = 0; i < cantidadPaquetes; i++)
+{
+    Console.Write($"{latencias[i]:F2} "); 
+    if ((i + 1) % 10 == 0) Console.WriteLine(); 
+}
+Console.WriteLine();
+
+double rangoInferior = 20;
+double rangoSuperior = 50;
+int enRango = 0;
+
+for (int i = 0; i < cantidadPaquetes; i++)
+{
+    if (latencias[i] >= rangoInferior && latencias[i] <= rangoSuperior)
+    {
+        enRango++;
+    }
+}
+
+
+double probabilidad = (double)enRango / cantidadPaquetes;
+
+Console.WriteLine($"Total de paquetes simulados: {cantidadPaquetes}");
+Console.WriteLine($"Cantidad de paquetes con latencia entre {rangoInferior} ms y {rangoSuperior} ms: {enRango}");
+Console.WriteLine($"Probabilidad estimada: {probabilidad:P2}"); 
+
+Console.ReadKey();
+```
+### Datos: 
 Latencias generadas (en ms):
 7.90 39.63 60.21 63.67 29.29 39.63 56.79 9.34 41.08 98.38
 88.97 14.56 2.61 54.29 56.98 91.93 3.73 95.53 43.02 36.29
@@ -10199,4 +10238,4 @@ Latencias generadas (en ms):
 Total de paquetes simulados: 1000
 Cantidad de paquetes con latencia entre 20 ms y 50 ms: 302
 Probabilidad estimada: 30.20%
-```
+
