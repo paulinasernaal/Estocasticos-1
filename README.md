@@ -1038,6 +1038,20 @@ namespace _111111
 1
 0
 1
+
 Simulación de 1000 SSDs durante un mes:
+
 SSDs que fallaron: 507
+
 SSDs que funcionaron: 493
+
+### Preguntas: 
+ 1. ¿Cual es la probabilidad frecuentista de que un SSD falle en un mes?
+    R/=
+    
+ 2. Si tiene 5000 SSD en un centro de datos, ¿cuantos esperarían que fallaran en un mes, basado en esta probabilidad?
+    R/=
+    
+ 3. ¿como cambiaría su estijmación de probabilidad si tuvieran datos de 10.000 SSD en lugar de 1.000 (acá se introduce la ley de los grandes numeros)?
+    R/=
+    
