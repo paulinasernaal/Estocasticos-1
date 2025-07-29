@@ -10406,7 +10406,7 @@ Total objetos no raros: 2527
     
  2. Si un jugador derrota a 100 monstruos, ¿cuántos objetos raros esperaría obtener, en promedio, según esta probabilidad?
     
-    R/= En promedio, se esperaría obtener 49.46 objetos raros si derrota a 100 monstruos.
+    R/= En promedio, se esperaría obtener 50 objetos raros si derrota a 100 monstruos.
     
  3. Si quisieran que los objetos raros fueran más raros, ¿cómo deberían ajustar la probabilidad teórica para que, al repetir el experimento, la frecuencia observada disminuya?
 
