@@ -10240,8 +10240,8 @@ Total de paquetes simulados: 1000
 ### Preguntas: 
  1. ¿Cuál es la probabilidad frecuentista de que la latencia de un paquete sea mayor a 50 mseg? (Consideren esto un "evento de latencia alta").
     
-    R/= Le pedí a ChatGTP que me contara la cantidad de datos mayores de 50 mseg, la totalidad de estos son: 498
-        Esto significa que, según nuestros datos simulados, aproximadamente el 49.8% de los paquetes presentan una latencia alta
+    R/= Le pedí a ChatGTP que me contara la cantidad de datos mayores de 50 mseg, la totalidad de estos son: 517
+        Esto significa que, según nuestros datos simulados, aproximadamente el 51.7% de los paquetes presentan una latencia alta
     
  2. ¿Y cuál es la probabilidad de que esté entre 20 mseg y 40 mseg?
     
