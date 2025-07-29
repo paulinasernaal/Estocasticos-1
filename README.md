@@ -10236,6 +10236,8 @@ Latencias generadas (en ms):
 9.00 95.48 17.17 3.74 30.92 51.84 23.71 62.82 15.36 50.18
 
 Total de paquetes simulados: 1000
+
 Cantidad de paquetes con latencia entre 20 ms y 50 ms: 302
+
 Probabilidad estimada: 30.20%
 
