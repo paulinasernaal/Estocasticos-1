@@ -12448,11 +12448,11 @@ Total de golpes normales (0): 1007
 ### Preguntas: 
 1. ¿Cuál es la probabilidad frecuentista de que un ataque sea un golpe crítico?
     
-    R/= 
+    R/= La probabilidad frecuentista estimada es aproximadamente 49.65%
     
  2. Si la descripción del personaje dice que tiene un 15% de probabilidad de golpe crítico, ¿los resultados de nuestra simulación se acercan a esa cifra? ¿Por qué sí o por qué no? (Aquí podemos discutir la variabilidad en muestras pequeñas vs. grandes).
     
-    R/= 
+    R/= Los resultados de la simuación no se acercan ni un poco a ese 15%, 
     
  3.Si quisiéramos que un golpe crítico también tuviera un 20% de probabilidad de "aturdir" al enemigo (un evento condicional), ¿cómo podríamos empezar a pensar en esa probabilidad basándonos en la frecuencia de golpes críticos?
  
