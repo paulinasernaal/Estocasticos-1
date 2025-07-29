@@ -12440,8 +12440,11 @@ Console.WriteLine("Total de golpes normales (0): " + golpesNormales);
 1
 
 --- Resumen ---
+
 Total de golpes críticos (1): 993
+
 Total de golpes normales (0): 1007
+
 ### Preguntas: 
 1. ¿Cuál es la probabilidad frecuentista de que un ataque sea un golpe crítico?
     
@@ -12452,4 +12455,5 @@ Total de golpes normales (0): 1007
     R/= 
     
  3.Si quisiéramos que un golpe crítico también tuviera un 20% de probabilidad de "aturdir" al enemigo (un evento condicional), ¿cómo podríamos empezar a pensar en esa probabilidad basándonos en la frecuencia de golpes críticos?
+ 
     R/= 
