@@ -10252,8 +10252,9 @@ Total de paquetes simulados: 1000
     
  4. Si su aplicación requiere que el 95% de los paquetes tengan una latencia inferior a 60 mseg, ¿cumple esta red con ese requisito, según sus observaciones?
 
-    R/= Le pedí a ChatGTP que me contara la cantidad de datos menores de 60 mseg, la totalidad de estos son: 595
-        la red no cumple con el requisito de calidad de servicio (QoS) que exige que al menos el 95% de los paquetes tengan una latencia inferior a 60 mseg, ya que solo el 59.5% lo cumple.
+    R/= Le pedí a ChatGTP que me contara la cantidad de datos menores de 60 mseg, la totalidad de estos son: 597
+    
+        la red no cumple con el requisito de calidad de servicio (QoS) que exige que al menos el 95% de los paquetes tengan una latencia inferior a 60 mseg, ya que solo el 59.7% lo cumple.
 
 ## Ejercicio 3: 
 ### Codigo de visual: 
