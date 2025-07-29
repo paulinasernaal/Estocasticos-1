@@ -10081,11 +10081,14 @@ SSDs que funcionaron: 493
 0
 0
 1
+
 Simulación de 10000 SSDs durante un mes:
+
 SSDs que fallaron: 5061
+
 SSDs que funcionaron: 4939
 
-Así, a estimación de la probabilidad de fallo pasó de 50.7% a 49.85%, una diferencia menor. Esto confirma que, según la ley de los grandes números, la estimación se estabiliza y se aproxima al valor real conforme se incrementa el tamaño de la muestra. Por tanto, la nueva estimación es más precisa y confiable.
+Así, la estimación de la probabilidad de fallo pasó de 50.7% a 49.85%, una diferencia menor. Esto confirma que, según la ley de los grandes números, la estimación se estabiliza y se aproxima al valor real conforme se incrementa el tamaño de la muestra. Por tanto, la nueva estimación es más precisa y confiable.
     
 ## Ejercicio 2
 ### Codigo en visual: 
